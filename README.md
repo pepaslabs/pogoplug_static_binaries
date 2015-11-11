@@ -4,7 +4,7 @@ Statically-linked binaries compiled for the stock busybox-based Linux distributi
 * from wget-1.12
   * [wget](https://github.com/pepaslabs/pogoplug_static_binaries/blob/master/bin/wget?raw=true) (with HTTPS support)
 
-**NOTE:** The `wget` binary which comes with the Pogoplug's stock busybox-based Linux distribution doesn't have HTTPS support, which means it cannot download files from github, dropbox, etc (which all redirect HTTP traffic to HTTPS URLs automatically).  For this reason, the above `wget` static binary is also hosted on Amazon S3 (http://pogoplug.s3.amazonaws.com/wget), which still allows plain old HTTP, which means a stock Pogoplug can download it. 
+**NOTE:** The `wget` binary which comes with the Pogoplug's stock busybox-based Linux distribution doesn't have HTTPS support, which means it cannot download files from github, dropbox, etc (which all redirect HTTP traffic to HTTPS URLs automatically).  For this reason, the above `wget` static binary is also hosted on Amazon S3 (see http://pogoplug.s3.amazonaws.com/wget), which still allows plain old HTTP, which means a stock Pogoplug can download it. 
 
 * from util-linux-2.17.2:
   * [fdisk](https://github.com/pepaslabs/pogoplug_static_binaries/blob/master/bin/fdisk?raw=true)
