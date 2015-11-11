@@ -68,3 +68,11 @@ gcc -O2 -Wall -L/usr/lib -L/usr/lib/ssl -lz -static -o wget cmpt.o connect.o con
 ```
 
 You should now have a working wget static binary (with HTTPS support).
+
+
+## Related resources:
+
+You may also be interested in my other Pogoplug github projects:
+
+* [pogoplug_mobile_uboot_installer](https://github.com/pepaslabs/pogoplug_mobile_uboot_installer)
+* [pogoplug-v4-bodhi-rootfs-debian](https://github.com/pepaslabs/pogoplug-v4-bodhi-rootfs-debian)
