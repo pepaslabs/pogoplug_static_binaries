@@ -1,5 +1,5 @@
 # pogoplug_static_binaries
-Statically-linked binaries compiled for the stock busybox-based Linux distribution which comes with Pogoplug Mobile (also works with Pogoplug Series 4).
+Statically-linked binaries compiled for the stock busybox-based Linux distribution which comes with Pogoplug v4 devices (Pogoplug Mobile and Pogoplug Series 4).
 
 * from wget-1.12
   * [wget](https://github.com/pepaslabs/pogoplug_static_binaries/blob/master/bin/wget?raw=true) (with HTTPS support)
